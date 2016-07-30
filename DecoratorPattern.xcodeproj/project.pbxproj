@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		77B46E8F1D4C9A4D00FE3021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46E8E1D4C9A4D00FE3021 /* main.m */; };
+		77B46E981D4C9AFE00FE3021 /* FouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46E971D4C9AFE00FE3021 /* FouthGradeSchoolReport.m */; };
+		77B46E9B1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46E9A1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m */; };
+		77B46EA11D4CADA400FE3021 /* HighScoreDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EA01D4CADA400FE3021 /* HighScoreDecorator.m */; };
+		77B46EA41D4CAFCB00FE3021 /* SortDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EA31D4CAFCB00FE3021 /* SortDecorator.m */; };
+		77B46EAA1D4CDB2F00FE3021 /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EA91D4CDB2F00FE3021 /* ConcreteComponent.m */; };
+		77B46EAD1D4CDBA000FE3021 /* RHCDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EAC1D4CDBA000FE3021 /* RHCDecorator.m */; };
+		77B46EB01D4CDDB700FE3021 /* ConcreteDecorator1.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EAF1D4CDDB700FE3021 /* ConcreteDecorator1.m */; };
+		77B46EB31D4CDE8400FE3021 /* ConcreteDecorator2.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B46EB21D4CDE8400FE3021 /* ConcreteDecorator2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,27 @@
 /* Begin PBXFileReference section */
 		77B46E8B1D4C9A4D00FE3021 /* DecoratorPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DecoratorPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B46E8E1D4C9A4D00FE3021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77B46E951D4C9AAC00FE3021 /* SchoolReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolReport.h; sourceTree = "<group>"; };
+		77B46E961D4C9AFE00FE3021 /* FouthGradeSchoolReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FouthGradeSchoolReport.h; sourceTree = "<group>"; };
+		77B46E971D4C9AFE00FE3021 /* FouthGradeSchoolReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FouthGradeSchoolReport.m; sourceTree = "<group>"; };
+		77B46E991D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugarFouthGradeSchoolReport.h; sourceTree = "<group>"; };
+		77B46E9A1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugarFouthGradeSchoolReport.m; sourceTree = "<group>"; };
+		77B46E9C1D4CAC2300FE3021 /* decoratorPattern001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decoratorPattern001.png; sourceTree = "<group>"; };
+		77B46E9E1D4CACB100FE3021 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		77B46E9F1D4CADA400FE3021 /* HighScoreDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoreDecorator.h; sourceTree = "<group>"; };
+		77B46EA01D4CADA400FE3021 /* HighScoreDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoreDecorator.m; sourceTree = "<group>"; };
+		77B46EA21D4CAFCB00FE3021 /* SortDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortDecorator.h; sourceTree = "<group>"; };
+		77B46EA31D4CAFCB00FE3021 /* SortDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortDecorator.m; sourceTree = "<group>"; };
+		77B46EA51D4CCA1C00FE3021 /* decoratorPattern002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decoratorPattern002.png; sourceTree = "<group>"; };
+		77B46EA71D4CDAF900FE3021 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		77B46EA81D4CDB2F00FE3021 /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
+		77B46EA91D4CDB2F00FE3021 /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
+		77B46EAB1D4CDBA000FE3021 /* RHCDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHCDecorator.h; sourceTree = "<group>"; };
+		77B46EAC1D4CDBA000FE3021 /* RHCDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHCDecorator.m; sourceTree = "<group>"; };
+		77B46EAE1D4CDDB700FE3021 /* ConcreteDecorator1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecorator1.h; sourceTree = "<group>"; };
+		77B46EAF1D4CDDB700FE3021 /* ConcreteDecorator1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecorator1.m; sourceTree = "<group>"; };
+		77B46EB11D4CDE8400FE3021 /* ConcreteDecorator2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecorator2.h; sourceTree = "<group>"; };
+		77B46EB21D4CDE8400FE3021 /* ConcreteDecorator2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecorator2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +70,8 @@
 		77B46E821D4C9A4D00FE3021 = {
 			isa = PBXGroup;
 			children = (
+				77B46EA61D4CDAD800FE3021 /* Component */,
+				77B46E9D1D4CAC5600FE3021 /* Decorator */,
 				77B46E8D1D4C9A4D00FE3021 /* DecoratorPattern */,
 				77B46E8C1D4C9A4D00FE3021 /* Products */,
 			);
@@ -57,9 +88,44 @@
 		77B46E8D1D4C9A4D00FE3021 /* DecoratorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				77B46EA51D4CCA1C00FE3021 /* decoratorPattern002.png */,
+				77B46E9C1D4CAC2300FE3021 /* decoratorPattern001.png */,
 				77B46E8E1D4C9A4D00FE3021 /* main.m */,
+				77B46E951D4C9AAC00FE3021 /* SchoolReport.h */,
+				77B46E961D4C9AFE00FE3021 /* FouthGradeSchoolReport.h */,
+				77B46E971D4C9AFE00FE3021 /* FouthGradeSchoolReport.m */,
+				77B46E991D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.h */,
+				77B46E9A1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m */,
 			);
 			path = DecoratorPattern;
+			sourceTree = "<group>";
+		};
+		77B46E9D1D4CAC5600FE3021 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				77B46E9E1D4CACB100FE3021 /* Decorator.h */,
+				77B46E9F1D4CADA400FE3021 /* HighScoreDecorator.h */,
+				77B46EA01D4CADA400FE3021 /* HighScoreDecorator.m */,
+				77B46EA21D4CAFCB00FE3021 /* SortDecorator.h */,
+				77B46EA31D4CAFCB00FE3021 /* SortDecorator.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		77B46EA61D4CDAD800FE3021 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				77B46EA71D4CDAF900FE3021 /* Component.h */,
+				77B46EA81D4CDB2F00FE3021 /* ConcreteComponent.h */,
+				77B46EA91D4CDB2F00FE3021 /* ConcreteComponent.m */,
+				77B46EAB1D4CDBA000FE3021 /* RHCDecorator.h */,
+				77B46EAC1D4CDBA000FE3021 /* RHCDecorator.m */,
+				77B46EAE1D4CDDB700FE3021 /* ConcreteDecorator1.h */,
+				77B46EAF1D4CDDB700FE3021 /* ConcreteDecorator1.m */,
+				77B46EB11D4CDE8400FE3021 /* ConcreteDecorator2.h */,
+				77B46EB21D4CDE8400FE3021 /* ConcreteDecorator2.m */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77B46E9B1D4CA9F100FE3021 /* SugarFouthGradeSchoolReport.m in Sources */,
+				77B46EB31D4CDE8400FE3021 /* ConcreteDecorator2.m in Sources */,
+				77B46EB01D4CDDB700FE3021 /* ConcreteDecorator1.m in Sources */,
 				77B46E8F1D4C9A4D00FE3021 /* main.m in Sources */,
+				77B46EAA1D4CDB2F00FE3021 /* ConcreteComponent.m in Sources */,
+				77B46EAD1D4CDBA000FE3021 /* RHCDecorator.m in Sources */,
+				77B46EA41D4CAFCB00FE3021 /* SortDecorator.m in Sources */,
+				77B46EA11D4CADA400FE3021 /* HighScoreDecorator.m in Sources */,
+				77B46E981D4C9AFE00FE3021 /* FouthGradeSchoolReport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
